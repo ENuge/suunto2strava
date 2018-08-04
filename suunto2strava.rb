@@ -23,7 +23,7 @@ query_params = {
   version: '1.1.0',
   clientUserId: '2319771',
 }
-cookie_header = "ASP.NET_SessionId=px0vjm3irhjfrbwaaz3hxiv4; Movescount_lang=9; MovesCountCookie=#{MOVES_COUNT_COOKIE};"
+cookie_header = "ASP.NET_SessionId=px0vjm3irhjfrbwaaz3hxiv4; Movescount_lang=9; MovesCountCookie=#{MOVESCOUNT_COOKIE};"
 
 generic_headers = {
   'Cookie' => "#{cookie_header}",
