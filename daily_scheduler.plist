@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.preva2strava.importPrevaToStrava</string>
+    <string>com.preva2strava.importSuuntoToStrava</string>
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
-        <string>/Users/eoin/Documents/miscellanea/preva2strava/daily_scheduler.sh</string>
+        <string>/Users/eoin/Documents/suunto2strava/daily_scheduler.sh</string>
     </array>
     <key>StartCalendarInterval</key>
     <dict>
@@ -17,8 +17,8 @@
         <integer>9</integer>
     </dict>
     <key>StandardOutPath</key>
-    <string>/tmp/com.preva2strava.importPrevaToStrava.out</string>
+    <string>/tmp/com.preva2strava.importSuuntoToStrava.out</string>
     <key>StandardErrorPath</key>
-    <string>/tmp/com.preva2strava.importPrevaToStrava.err</string>
+    <string>/tmp/com.preva2strava.importSuuntoToStrava.err</string>
 </dict>
 </plist>
