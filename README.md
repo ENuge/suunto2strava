@@ -1,4 +1,4 @@
-# Preva2Strava
+# Suunto2Strava
 "Because the cycling app world is confusing and terrible."
 
 ## The Intent
