@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.preva2strava.importSuuntoToStrava</string>
+    <string>com.suunto2strava.importSuuntoToStrava</string>
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
@@ -17,8 +17,8 @@
         <integer>9</integer>
     </dict>
     <key>StandardOutPath</key>
-    <string>/tmp/com.preva2strava.importSuuntoToStrava.out</string>
+    <string>/tmp/com.suunto2strava.importSuuntoToStrava.out</string>
     <key>StandardErrorPath</key>
-    <string>/tmp/com.preva2strava.importSuuntoToStrava.err</string>
+    <string>/tmp/com.suunto2strava.importSuuntoToStrava.err</string>
 </dict>
 </plist>
