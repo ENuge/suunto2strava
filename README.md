@@ -27,7 +27,7 @@ As a daily import of all new Suunto Movescount data:<br />
 1. Update `daily_scheduler.plist` to use the location of your `daily_scheduler.sh`.
 2. Update `daily_scheduler.sh` to point to the location of your Ruby executable and where you have `suunto2strava.rb` located.
 3. Copy `daily_scheduler.plist` into `/Library/LaunchAgents/`, for me this was: `sudo cp ~/Documents/suunto2strava/daily_scheduler.plist /Library/LaunchAgents/`.
-4. Run: `cd /Libary/LaunchAgents/ && sudo launchctl load -w daily_scheduler.plist && sudo launchctl start com.suunto2strava.importSuuntoToStrava`.
+4. Run: `cd /Library/LaunchAgents/ && sudo launchctl load -w daily_scheduler.plist && sudo launchctl start com.suunto2strava.importSuuntoToStrava`.
 5. Check the log files specified in `daily_scheduler.plist`, make sure they have some output. If not, open an issue or something.
 
 ## Finding My Keys
