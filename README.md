@@ -31,7 +31,7 @@ As a daily import of all new Suunto Movescount data:<br />
 5. Check the log files specified in `daily_scheduler.plist`, make sure they have some output. If not, open an issue or something.
 
 ## Finding My Keys
-I'm feeling lazy, so just bear with me:
+I am feeling lazy, so just bear with me:
 ### Strava API Key
 1. Create a Strava app: `https://www.strava.com/settings/api` . Say you're an importer or something.
 2. Follow the steps in here, use the access token you get: `https://yizeng.me/2017/01/11/get-a-strava-api-access-token-with-write-permission/`.
